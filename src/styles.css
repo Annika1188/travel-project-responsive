@@ -28,6 +28,10 @@ body {
   max-width: 100%;
   margin: 0 auto;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
+}
 
 .card {
   background: white;
@@ -39,6 +43,10 @@ body {
 .card-body {
   padding: 32px;
 }
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .card-footer {
   padding: 30px 30px;
 }
@@ -124,7 +132,7 @@ main p {
   color: #272044;
 }
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
   height: auto;
 }
@@ -214,5 +222,12 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
