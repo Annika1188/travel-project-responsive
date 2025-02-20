@@ -84,6 +84,7 @@ section.secondary {
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/Background.jpg");
+  filter: brightness(180%) contrast(80%) sepia(10%);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -210,6 +211,20 @@ footer a {
   color: white;
   opacity: 0.7;
 }
+
+.footer-table-container {
+  display: flex;
+  justify-content: center; /* Centers the table horizontally */
+  margin-top: 30px; /* Adds space above */
+}
+.table {
+  width: 80%; /* Adjust width to fit layout */
+  max-width: 600px; /* Prevents it from being too wide */
+  text-align: center;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.2); /* Adds slight transparency */
+  color: white;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px;
@@ -236,5 +251,8 @@ footer a {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+  .footer-table-container {
+    display: none;
   }
 }
