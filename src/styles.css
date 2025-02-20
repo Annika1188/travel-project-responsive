@@ -30,7 +30,7 @@ body {
 }
 .embed {
   width: 100%;
-  aspect-ratio: 1 /1;
+  aspect-ratio: 1/1;
 }
 
 .card {
@@ -138,6 +138,7 @@ main p {
   width: 100%;
   display: block;
   height: auto;
+  object-fit: cover;
 }
 h1 {
   font-weight: 700;
