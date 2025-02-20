@@ -50,6 +50,9 @@ body {
 .card-footer {
   padding: 30px 30px;
 }
+.instagram-embed {
+  margin: 30px 0;
+}
 .button {
   display: block;
   color: white;
